@@ -1,0 +1,167 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Shippori Antique B1', sans-serif;
+    margin: 0;
+}
+
+.div1-sec {
+    padding-top: 10%;
+    font-size: large;
+    text-align: center;
+    color: aliceblue;
+}
+
+.first-flex-container {
+
+    background-image: url(/images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.link-button {
+
+    text-decoration: none;
+    background-image: linear-gradient(rgb(226, 147, 147), rgb(255, 255, 255));
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 5px;
+    display: inline-block;
+    color: rgb(168, 14, 14);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.link-button:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+/*****/
+.div1-sec2 {
+    padding-top: 5%;
+    font-size: medium;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.div2-sec2 {
+    text-align: center;
+}
+
+.link-button1 {
+    color: rgb(92, 92, 92);
+    font-weight: 900;
+    padding: 10px 40px;
+}
+
+#color {
+    padding: 20px 50px;
+    color: rgb(78, 4, 4);
+    background-image: linear-gradient(rgb(226, 147, 147), rgb(255, 255, 255));
+    border: 2px solid rgb(173, 16, 16);
+}
+
+/****/
+.div3-sec2 {
+    background-image: white;
+    border-bottom: 2px solid rgb(173, 16, 16);
+    margin-top: 60px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.div4-sec2 {
+    text-align: center;
+}
+
+/***/
+.third-flex-container {
+    display: flex;
+}
+
+.div2-sec3 {
+    padding: 10px 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+    padding: 10px 40px;
+    text-align: center;
+    box-shadow: 10px 10px 40px grey;
+    text-align: left;
+}
+
+#first {
+    background-color: rgb(235, 157, 157);
+}
+
+#second {
+    background-color: rgb(235, 199, 157);
+}
+
+#third {
+    background-color: rgb(200, 214, 162);
+}
+
+.div1-sec3 {
+    text-align: center;
+}
+
+/***/
+.flexable-container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.half-width {
+    width: 50%;
+    padding-right: 4%;
+    padding-left: 4%;
+
+}
+
+.half-width img {
+    width: 80%;
+    height: 80%;
+    margin-top: 5%;
+
+}
+
+.top-sec {
+    background-repeat: no-repeat;
+}
+
+.newSec {
+    text-align: center;
+}
+
+.middle {
+    display: flex;
+    font-size: large;
+    align-items: center;
+    background-color: brown;
+}
+
+.only1 {
+    padding-top: 3%;
+    display: inline-block;
+    background-color: burlywood;
+    height: 60px;
+    width: 700px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.only {
+    background-color: black;
+    color: rgb(167, 30, 30);
+}
